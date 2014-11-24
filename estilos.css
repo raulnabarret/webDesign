@@ -1,0 +1,185 @@
+body{ 
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+a{
+	color: #22BCE0;
+}
+
+header{
+	background: #343B54;
+	color: white;
+	padding: 0.5em;
+	overflow: hidden;
+}
+
+header h1{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 1.5em 70px 0 0;
+}
+
+header figure{
+	float: left;
+}
+
+header #logo img{
+	width: 52px;
+	border-right: 1px solid white;
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+}
+
+header #avatar img{
+	border-radius: 50%;
+	width: 55px;
+	margin: 0.5em 0.5em 0em 0em;
+
+}
+
+header #avatar{
+	position: absolute;
+	right: 0; 
+	top: 0;
+}
+
+nav{
+	background: #80BCA3;
+	padding: 0em 0.5em 0em 0.5em;
+	position: relative;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 1.2em 0 0; 
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+}
+
+nav ul #publicar_nav{
+	position: absolute;
+	top: -0.4;
+	right: 0;
+}
+
+nav ul #publicar_nav a{
+	padding: 0.8em 0.5em;
+	background: #22BCE0;
+	border-radius: 10%;
+	text-decoration: none; 
+	font-style: italic;
+	text-shadow: rgba(0,0,0,0.5) 2px 2px 5px;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+}
+#contenido{
+	margin: 1em;
+}
+
+#contenido .item{
+	background: white;
+	border-bottom: 3px solid #22BCE0;;
+	position: relative;
+	min-height: 128px;
+	margin-bottom: 3em;
+}
+
+#contenido .item .autor_item{
+	color: #AAA;
+}
+
+#contenido .item .datos_item{
+	text-align: right;
+	margin: 1em 1em 0 0;
+
+}
+
+#contenido .item .datos_item .time_item{
+	color: #AAA;
+}
+
+#contenido .item .datos_item .tag_item{
+	background: #F4502A;
+	color: white;
+	display: inline-block;
+	padding: 0.2em;
+	border-radius: 20%;
+	text-decoration: none;
+	float: left;
+}
+
+#contenido .item .imagen_item{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+#contenido .item .imagen_item img{
+	width: 96px;
+}
+
+#contenido .item .titulo_item{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 1em 1em 0 0;
+}
+
+#contenido .item .titulo_item a{
+	color:  #444;
+	text-decoration: none; 
+}
+
+#contenido .item .votacion{
+	position: absolute;
+	background: white;
+	border-radius: 0 0 0.2em 0.2em;
+	margin-top: 3px;
+	top: 100%;
+	width: 90%;
+	left: 5%;
+	padding: 0.2em;
+}
+
+#contenido .item .votacion .comentarios,
+#contenido .item .votacion .guardar_item{
+	float: right;
+}
+
+footer{
+	background: #22BCE0;
+	text-align: center;
+	color: rgba(255,255,255,0.7);
+	padding: 1em;
+}
+
+footer p:first-child{
+	margin-bottom: 0;
+}
+footer p:last-child{
+	margin-top: 0;
+}
+footer p:last-child:before{
+	content: "- ";
+}
+footer p:last-child:after{
+	content: " -"
+}
+
+
+
+
+
+
+
+
