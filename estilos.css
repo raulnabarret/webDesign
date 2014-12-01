@@ -82,13 +82,11 @@ header #logo img{
 	margin-right: 0.5em;
 	padding-right: 0.5em;	
 	width: 52px;
-	-webkit-transition: 0.5s;
+	transition: 0.5s;
 }
 
 header #logo img:hover{
-	-webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
 }
 
 header #avatar img{
