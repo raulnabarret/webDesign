@@ -27,15 +27,24 @@
 			<li><a href="#">JavaScript</a></li>
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
-			<li id="publicar_nav"><a href="#">Publicar</a></li>
+			<li id="publicar_nav"> 
+				<a href="#" class="" id="mostrar-form">Publicar</a>
+			<li>
 		</ul>
 	</nav>
+	<form action="" id="formulario" class="formulario">
+		<!--<label for="titulo"> Titulo: </label>-->
+		<input type="text" id="titulo" placeholder="Título" required></input>
+		<!--<label for="url"> URL: </label>-->
+		<input type="url" id="url" placeholder="URL" required></input>
+		<input type="submit" value="Agregar">
+	</form>
 	<aside>
-		<video width="320" height="240" controls>
+		<!--<video width="320" height="240" controls>
 			<source src="lecturas.ogg" type="video/ogg"/>	  
 			<source src="lecturas.mp4" type="video/mp4"/>
 			Your browser does not support this format. 
-		</video>
+		</video>-->
 	</aside>
 	<section id="contenido"> 
 		<article class="item">
@@ -86,5 +95,7 @@
 		<p><strong>Powered by Raul Nabarret</strong></p>
 		<p>Mejorando.la 2014</p>
 	</footer>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="formulario.js"></script>
 </body>
 </html>
